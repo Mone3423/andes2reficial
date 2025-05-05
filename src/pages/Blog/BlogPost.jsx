@@ -1,6 +1,7 @@
 // components/Blog/BlogPost.js
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { Container, Row, Col, } from "react-bootstrap";
 import { FacebookShareButton, TwitterShareButton } from 'react-share';
 import { FiArrowLeft, FiArrowRight } from 'react-icons/fi';
 import './BlogPost.css';
@@ -318,7 +319,46 @@ const BlogPost = () => {
           </Link>
         )}
       </div>
+      <section className="call_us">
+        <Container>
+          <Row className="align-items-center">
+            <Col md="8">
+              <h5 className="title">Ready to explore?</h5>
+              <h2 className="heading">
 
+                START YOUR NEXT ADVENTURE WITH US!
+              </h2>
+            
+              <p className="text"></p>
+            </Col>
+            <Col md="4" className="text-center mt-3 mt-md-0">
+              <a
+                href="/"
+                className="secondary_btn bounce"
+                rel="no"
+              >
+                Get to Know Us !
+              </a>
+              
+              {/* Contenedor para los íconos, debajo del botón */}
+              <div className="mt-3">
+                <a href="https://www.instagram.com/andes_2_amazon/"
+                  className="bi bi-instagram me-4 fs-3 text-white"
+                  rel="noopener noreferrer"
+                  aria-label="Visit our Instagram profile"
+                ></a>
+                <a
+                  href="https://www.facebook.com/Andes2Amazon"
+                  className="bi bi-facebook fs-3 text-white"
+                  rel="noopener noreferrer"
+                  aria-label="Visit our Facebook page"
+                ></a>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+        <div className="overlay"></div>
+      </section>
       {/* Posts Relacionados */}
       {relatedPosts.length > 0 && (
         <section className="related-posts">

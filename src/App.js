@@ -11,6 +11,7 @@ import Booking from "./pages/Booking/Booking";
 import Destinations from "./pages/Destinations/Destinations";
 import Blog from "./pages/Blog/Blog";
 import BlogPost from "./pages/Blog/BlogPost";
+import ScrollToTop from "./components/Common/ScrollToTop";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <>
 
       <Header />
+      <ScrollToTop /> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about-us" element={<About />} />
