@@ -25,7 +25,7 @@ return (
       style={{ 
         width: "100%",
         maxWidth: "500px",
-        borderRadius: "25px",
+        borderRadius: "15px",
         overflow: "hidden",
         boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)"
       }}
