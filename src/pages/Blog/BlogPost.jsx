@@ -23,6 +23,11 @@ import cerro3 from '../../assets/images/fotos/redimensionadas/UyuniSalesFlatandP
 import cerro0 from '../../assets/images/fotos/redimensionadas/SalvesMines_Andes2Amazon/Potositravel_andes2amazon13 .jpg'
 import cerro1 from '../../assets/images/fotos/redimensionadas/SalvesMines_Andes2Amazon/Potositravel_andes2amazon9 .jpg'
 import cerro2 from '../../assets/images/fotos/redimensionadas/SalvesMines_Andes2Amazon/Potositravel_andes2amazon5 .jpg'
+import uyuni from '../../assets/images/fotos/redimensionadas/UyuniSalesFlatandPotosiTravel_Andes2Amazon/UyuniSaltFlatsadventure_Andes2Amazon9  .jpg'
+import uyuni1 from '../../assets/images/fotos/redimensionadas/UyuniSalesFlatandPotosiTravel_Andes2Amazon/UyuniSaltFlatsadventure_Andes2Amazon11  .jpg'
+import uyuni2 from '../../assets/images/fotos/redimensionadas/UyuniSalesFlatandPotosiTravel_Andes2Amazon/UyuniSaltFlatsadventure_Andes2Amazon32  .jpg'
+import uyuni3 from '../../assets/images/fotos/redimensionadas/UyuniSalesFlatandPotosiTravel_Andes2Amazon/UyuniSaltFlatsadventure_Andes2Amazon17  .jpg'
+import uyuni4 from '../../assets/images/fotos/redimensionadas/UyuniSalesFlatandPotosiTravel_Andes2Amazon/UyuniSaltFlatsadventure_Andes2Amazon19  .jpg'
 // Datos de ejemplo (deberías obtenerlos de una API en producción)
 
 const blogPosts = [
@@ -77,23 +82,28 @@ const blogPosts = [
   <p>The Salar de Uyuni, located in southwestern Bolivia, is the world’s largest salt flat, covering over 10,000 square kilometers. This vast white expanse offers surreal landscapes, natural mirrors during the rainy season, and a unique cultural richness. Here’s everything you need to know to plan your visit to this stunning destination.</p>
 
   <h2>What is the Salar de Uyuni and Where is it Located?</h2>
+  <img src="${uyuni}" alt="Uyuni Salt Flats adventure" />
   <p>Formed thousands of years ago after the evaporation of prehistoric lakes, the Salar de Uyuni sits at about 3,700 meters above sea level, spanning the departments of Potosí and Oruro. Besides being a natural wonder, it holds one of the world’s largest lithium reserves.</p>
 
   <h2>Best Time to Visit</h2>
+  <img src="${uyuni1}" alt="Uyuni Salt Flats adventure" />
   <p><strong>Rainy season (December–April):</strong> A thin layer of water creates a mirror effect that reflects the sky, offering incredible photo opportunities. Note: some areas may be inaccessible due to flooding.</p>
   <p><strong>Dry season (May–November):</strong> The salt flat dries out completely, allowing access to places like Incahuasi Island. Ideal for 4x4 exploration with clear skies and stable temperatures.</p>
 
   <h2>How to Get There</h2>
+  <img src="${uyuni2}" alt="Uyuni Salt Flats adventure" />
   <p><strong>From La Paz:</strong> A 1-hour flight or a 10–12 hour overnight bus.</p>
   <p><strong>From Sucre or Potosí:</strong> Daily buses, 7–9 hours.</p>
   <p><strong>From San Pedro de Atacama (Chile):</strong> Multi-day tours (3–4 days) cross the border and include the salt flat.</p>
 
   <h2>Tour Options</h2>
+  <img src="${uyuni3}" alt="Uyuni Salt Flats adventure" />
   <p><strong>1-day tours:</strong> Visit the Train Cemetery, Colchani, the salt flat, and Incahuasi Island.</p>
   <p><strong>3-day/2-night tours:</strong> Explore the salt flat, colored lagoons, geysers, and the Dalí Desert with basic accommodations or salt hotels.</p>
   <p><strong>Customized tours:</strong> Some agencies offer tailored itineraries based on your interests and time.</p>
 
   <h2>Main Attractions</h2>
+  <img src="${uyuni4}" alt="Uyuni Salt Flats adventure" />
   <p><strong>Train Cemetery:</strong> Near Uyuni, a field of 19th-century rusted locomotives — a nostalgic and photogenic spot.</p>
   <p><strong>Colchani:</strong> A small village where you can learn about salt extraction and buy local crafts.</p>
   <p><strong>Incahuasi Island:</strong> A cactus-covered island with panoramic views.</p>
@@ -101,6 +111,7 @@ const blogPosts = [
   <p><strong>Altiplanic Lagoons:</strong> Such as Laguna Colorada and Laguna Verde, home to flamingos and surrounded by volcanic landscapes.</p>
 
   <h2>Practical Tips</h2>
+  
   <p><strong>Acclimatization:</strong> Spend a few days in high-altitude cities like La Paz or Potosí beforehand.</p>
   <p><strong>Gear:</strong> Dress in layers, bring sunscreen, sunglasses, a hat, and plenty of water.</p>
   <p><strong>Photography:</strong> Bring a camera and extra batteries — the salt flat is perfect for creative photos and perspective shots.</p>
